@@ -29,12 +29,7 @@ export const Upper = () => {
     <div className='flex justify-center font-bold text-3xl'>
     Department of Data Science     
 
-    </div>
-    <div className='font-semibold flex justify-center pb-2'>
-    (Accredited by NBA in 2012, 2015, 2018 and 2022)
-
-    </div>
-    
+    </div>    
     </div>
     <div className='flex justify-between'>
         <div className='mb-0'>
