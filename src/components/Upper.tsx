@@ -27,7 +27,7 @@ export const Upper = () => {
         </div>
     </div>
     <div className='flex justify-center font-bold text-3xl'>
-    Department of Data Science(EA)        
+    Department of Data Science     
 
     </div>
     <div className='font-semibold flex justify-center pb-2'>
