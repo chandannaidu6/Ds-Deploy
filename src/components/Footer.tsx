@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-<footer className="mt-4 bg-white  shadow dark:bg-gray-800 sm:max-w-3xl md:max-w-5xl lg:max-w-screen-2xl">
+<footer className="mt-4 bg-white  shadow dark:bg-gray-800 sm:max-w-3xl md:max-w-5xl lg:max-w-full">
     <div className="w-full p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-black font-semibold sm:text-center dark:text-gray-400">
             © 2024 DS DEPARTMENT. All Rights Reserved.
