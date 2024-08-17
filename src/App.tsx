@@ -21,6 +21,7 @@ import { Attainments } from './pages/Attainments'
 import { Instructions } from './pages/Instructions'
 import { Contact } from './pages/Contact'
 import { Internship } from './pages/Intership'
+import { Placements } from './pages/Placements'
 
 function App() {
 
@@ -51,6 +52,8 @@ function App() {
         <Route path='/instructions' element={<Instructions />}/>
         <Route path='/contact'element={<Contact />}/>
         <Route path='/internship' element={<Internship />} />
+        <Route path='/placements' element={<Placements />} />
+
 
 
 

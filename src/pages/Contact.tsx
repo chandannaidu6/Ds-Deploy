@@ -38,7 +38,7 @@ export const Contact = () => {
 
                         </div>
                         <div className="text-xl">
-                            Head, Dept. of ECE:             9642613923
+                            Head, Dept. of DS:             98665467673
                         </div>
                         <div className="text-xl">
                             Academic Section:              9182058194
