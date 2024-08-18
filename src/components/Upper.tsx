@@ -7,7 +7,7 @@ export const Upper = () => {
     <div className='flex justify-start justify-center'>
         <div>
         <img src="https://static.wixstatic.com/media/374af4_adaa6463205342eead87a7d02b4241a9~mv2.png/v1/fill/w_89,h_89,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/44_%20Geetanjali.png" alt=""  width="71" height="71"></img>
-        <div className='text-sm font-semibold pt-5'>
+        <div className='text-xs font-semibold pt-5'>
         ....Striving towards perfection
 
         </div>
@@ -25,14 +25,14 @@ export const Upper = () => {
 
         </div>
     </div>
-    <div className='flex justify-center font-bold text-3xl'>
+    <div className='flex justify-center font-bold text-3xl pb-4'>
     Department of Data Science     
 
     </div>    
     </div>
     <div className='flex justify-between'>
         <div className='mb-0'>
-        <img src="https://static.wixstatic.com/media/374af4_1273fd514c9c40f99c7cf49d9eea74cc~mv2.jpg/v1/fill/w_43,h_43,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/nirf.jpg" alt="nirf.jpg" width="33" height="33" />
+        <img src="https://static.wixstatic.com/media/374af4_1273fd514c9c40f99c7cf49d9eea74cc~mv2.jpg/v1/fill/w_43,h_43,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/nirf.jpg" alt="nirf.jpg" className="w-[34px] h-[34px] object-cover" width="33" height="33" srcSet="https://static.wixstatic.com/media/374af4_1273fd514c9c40f99c7cf49d9eea74cc~mv2.jpg/v1/fill/w_43,h_43,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/nirf.jpg" />
         </div>
         <div>
         <img src="https://static.wixstatic.com/media/374af4_c1682f4fa2334f6aa23606e0931a47cc~mv2.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AICTE.png" alt="AICTE.png" width="45" height="45" />
