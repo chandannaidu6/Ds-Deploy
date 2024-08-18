@@ -5,12 +5,12 @@ import { Upper } from "../components/Upper"
 import { Footer } from "../components/Footer"
 export const Home = () => {
 
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
 
         <Appbar />
         <Card>
-        <div className='text-white'>
+        <div>
             <div className='text-2xl font-semibold pb-4'>
                 Announcements
             </div>
@@ -66,7 +66,7 @@ export const Home = () => {
             </div>
         </Card>
         <Card>
-            <div className='text-white'>
+            <div>
                 <div className='pb-4 text-center text-2xl font-semibold'>
                     WELCOME TO THE DEPARTMENT OF EA(DATA SCIENCE) 
 

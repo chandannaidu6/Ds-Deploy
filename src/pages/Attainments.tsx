@@ -5,10 +5,10 @@ import { Footer } from "../components/Footer";
 
 export const Attainments = () => {
     return (
-        <div className="flex flex-col min-h-screen bg-black">
+        <div className="flex flex-col min-h-screen bg-cyan-50">
             <Upper />
             <Appbar />
-            <div className="flex-grow text-white">
+            <div className="flex-grow">
                 <Card>
                     <div className="pb-2 text-2xl font-bold text-center">
                         CO-PO Attainments

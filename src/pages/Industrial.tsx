@@ -4,10 +4,10 @@ import { Upper } from "../components/Upper"
 import { Footer } from "../components/Footer"
 export const Industrial = () => {
 
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
         <div className='pb-4 text-2xl font-bold text-center border-b '>Industrial Visits</div>
             <div className='text-xl pt-2 pb-4'> 

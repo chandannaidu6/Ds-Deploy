@@ -5,16 +5,16 @@ import { Footer } from "../components/Footer";
 
 export const Placements = () => {
     return (
-        <div className='bg-black flex flex-col min-h-screen'>
+        <div className='bg-cyan-50 flex flex-col min-h-screen'>
             <Upper />
             <Appbar />
-            <div className='flex-grow text-white'>
+            <div className='flex-grow'>
                 <Card>
                     <div className='text-3xl font-bold pb-4'>
                         Placements
                     </div>
                     <div className='text-lg'>
-                        <ul className='list-disc list-inside text-white'>
+                        <ul className='list-disc list-inside'>
                             <li className='flex items-start'> 
                                 <span className='mr-2'>•</span> 
                                 <div className='whitespace-nowrap flex items-center'>

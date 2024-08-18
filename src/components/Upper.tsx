@@ -3,7 +3,6 @@ import Card from "../components/Card"
 export const Upper = () => {
     return (
     <Card>
-    <div className='text-white'>
     <div className='flex flex-col justify-center'>
     <div className='flex justify-start justify-center'>
         <div>
@@ -52,7 +51,6 @@ export const Upper = () => {
         </div>
     </div>
 
-    </div>
 </Card>
     )   
 }

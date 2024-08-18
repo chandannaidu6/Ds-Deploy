@@ -4,10 +4,10 @@ import { Upper } from "../components/Upper"
 import { Footer } from "../components/Footer"
 export const Contact = () => {
 
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
             <div>
                 <div className="grid grid-cols-2 gap-4">

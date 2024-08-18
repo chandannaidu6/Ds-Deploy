@@ -5,10 +5,10 @@ import { Footer } from "../components/Footer";
 
 export const Roles = () => {
     return (
-        <div className="flex flex-col min-h-screen bg-black">
+        <div className="flex flex-col min-h-screen bg-cyan-50">
             <Upper />
             <Appbar />
-            <div className="flex-grow text-white">
+            <div className="flex-grow">
                 <Card>
                     <div className="text-2xl flex justify-center font-bold">
                         Roles and Responsibilities

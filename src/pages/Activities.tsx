@@ -3,17 +3,17 @@ import Card from "../components/Card"
 import { Upper } from "../components/Upper"
 import { Footer } from "../components/Footer"
 export const Act = () => {
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper/>
 
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
     <div className='pb-2 text-2xl font-bold text-center'>Publications</div>
         <div className='overflow-x-auto'>
             <table className='table-auto w-full border-2 border-black'>
             <thead>
-                    <tr className='bg-black border-2 border-black whitespace-normal'>
+                    <tr className='border-2 border-black whitespace-normal'>
                         <th className='px-4 py-2 border-2 border-black whitespace-normal'>S.No</th>
                         <th className='px-4 py-2 border-2 border-black whitespace-normal'>Name of the author/s</th>
                         <th className='px-4 py-2 border-2 border-black whitespace-normal'>Title of Paper</th>

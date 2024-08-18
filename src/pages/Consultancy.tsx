@@ -3,10 +3,10 @@ import { Appbar } from "../components/Appbar";
 import { Upper } from "../components/Upper";
 import { Footer } from "../components/Footer";
 export const Consultancy = () => {
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
             <img src="https://static.wixstatic.com/media/374af4_8e826481c1b44e2da65f34d98815d36e~mv2.jpg/v1/fill/w_600,h_856,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Research%20Policy.jpg" alt="Research Policy.jpg" width="600" height="856" />
         </Card>

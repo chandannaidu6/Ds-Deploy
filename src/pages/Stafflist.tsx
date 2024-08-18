@@ -3,17 +3,17 @@ import { Appbar } from "../components/Appbar";
 import { Upper } from "../components/Upper";
 import { Footer } from "../components/Footer";
 export const Stafflist = () => {
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
     <div className="sm:max-w-3xl lg:max-w-7xl overflow-x-auto">
         <div className='pb-2 text-2xl font-bold text-center'>Faculty and Staff List</div>
         <div>
             <table className='table-auto w-full border-2 border-black'>
                 <thead>
-                    <tr className='bg-black border-2 border-black'>
+                    <tr className='border-2 border-black'>
                         <th className='px-4 py-2 border-2 border-black'>Sl. No.</th>
                         <th className='px-4 py-2 border-2 border-black'>Name of the Staff Member</th>
                         <th className='px-4 py-2 border-2 border-black'>Category</th>
@@ -291,7 +291,7 @@ export const Stafflist = () => {
         <div>
             <table className='table-auto w-full border-2 border-black'>
             <thead>
-                    <tr className='bg-black border-2 border-black'>
+                    <tr className='border-2 border-black'>
                         <th className='px-4 py-2 border-2 border-black'>Dept.</th>
                         <th className='px-4 py-2 border-2 border-black'>Existing</th>
                         <th className='px-4 py-2 border-2 border-black'>Resigned</th>

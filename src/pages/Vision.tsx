@@ -3,10 +3,10 @@ import { Appbar } from "../components/Appbar";
 import { Upper } from "../components/Upper";
 import { Footer } from "../components/Footer";
 export const Vision = () => {
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
 
         <Card>
             <div className = 'pb-2 text-2xl  font-bold text-center'>

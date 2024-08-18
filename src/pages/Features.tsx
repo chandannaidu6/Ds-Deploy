@@ -4,10 +4,10 @@ import { Upper } from "../components/Upper"
 import { Footer } from "../components/Footer"
 export const Features = () => {
 
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
             <div className='pb-2 text-2xl font-bold text-center px-3'>Salient Features of the Department</div>
             <div className='text-justify text-lg pb-2'>

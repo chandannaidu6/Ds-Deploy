@@ -4,10 +4,10 @@ import { Upper } from "../components/Upper"
 import { Footer } from "../components/Footer"
 export const NSS = () => {
 
-    return <div className='bg-black'>
+    return <div className='bg-cyan-50'>
         <Upper />
         <Appbar />
-        <div className='text-white'>
+        <div>
         <Card>
             <div className='flex justify-center items-center pb-10'>
                 <img src="https://static.wixstatic.com/media/374af4_f5f2ec3a25dd45cb9dd822e2d64bacec~mv2.jpeg/v1/fill/w_134,h_134,al_c,lg_1,q_80,enc_auto/NSSlogo.jpeg" alt="NSSlogo.jpeg" width="107" height="107" />
