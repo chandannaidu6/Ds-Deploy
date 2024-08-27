@@ -43,6 +43,11 @@ export const Appbar = () => {
                             Placements
                         </button>
                     </Link>
+                    <Link to='/dsclub' className="flex-grow">
+                        <button className="flex justify-center items-center py-3 w-full border text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            DS CLUB
+                        </button>
+                    </Link>
 
                     <Dropdown size={1} ButtonName="More" Buttons={['Contact us']} Links={['/contact']} />
                 </div>

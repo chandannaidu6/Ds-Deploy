@@ -22,6 +22,7 @@ import { Instructions } from './pages/Instructions'
 import { Contact } from './pages/Contact'
 import { Internship } from './pages/Intership'
 import { Placements } from './pages/Placements'
+import { DsClub } from './pages/Dsclub'
 
 function App() {
 
@@ -53,6 +54,8 @@ function App() {
         <Route path='/contact'element={<Contact />}/>
         <Route path='/internship' element={<Internship />} />
         <Route path='/placements' element={<Placements />} />
+        <Route path='/dsclub' element={<DsClub />} />
+
 
 
 
